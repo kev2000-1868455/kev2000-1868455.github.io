@@ -14,12 +14,15 @@ h3{
     font-size: 40px; 
     font-family: "Passion One";  
     margin-bottom: 0px;
+    hyphens: initial;
+    font-stretch: expanded;
 
 }
 
 li{
     list-style-type: none;
     padding-left: 0px;
+    color: yellow;
 }
 
 div{
@@ -42,10 +45,13 @@ a{
 }
 
 #Header h1{ 
+    height: 50px;
     font-size: 60px; 
     font-family: "Passion One"; 
     color: #FFBC00; 
     font-weight: bold; 
+    font-stretch: expanded;
+
 }
 
 #LeftNav{
@@ -80,6 +86,8 @@ a{
     border:solid 8px black;
     text-align: center;
     padding-bottom: 15px;
+    font-stretch: expanded;
+
 
 
 }
