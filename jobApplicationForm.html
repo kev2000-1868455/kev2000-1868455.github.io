@@ -11,6 +11,29 @@
 
 <form action="http://gclass.alexburner.com/formtest.php" method="post">
 
+    <fieldset>
+		<legend>Legality</legend>
+		<div class="field">
+			<label>Do you understand that this is a wholey unpaid position?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+        <div class="field">
+			<label>Do you acknowledge that, regardless of the circumstances of any incident that may occur during work,
+                you wave the company, Kevin Inc., from having any fault?
+             </label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+        <div class="field">
+			<label>In the event that you win the lottery somehow, you acknowledge that you will forfeit all winnings
+                to the nearest Kevin?
+             </label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+    </fieldset>
+
 	<fieldset>
 		<legend>Account</legend>
 		<div class="field">
@@ -160,11 +183,13 @@
 	<fieldset>
 		<legend>Personal Statement</legend>
 		<div class="field">
-			<label>Why do you deserve this job?</label><br>
+			<label>Name one time you made a mistake and describe how you fixed it?</label><br>
 			<textarea name="deserve" rows="6" cols="60"></textarea>
 		</div>
 		<div class="field">
-			<label>Describe a recent project:</label><br>
+			<label>You don't agree with the direction that your manager and team members are taking the project into.
+                Tell us about your top 3 solutions to this issue.
+            </label><br>
 			<textarea name="project" rows="6" cols="60"></textarea>
 		</div>
 	</fieldset>
