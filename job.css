@@ -2,6 +2,14 @@ form {
     background-color: rgb(117, 189, 211);
 }
 
+div{
+    color: white;
+}
+
+li {
+    color: white;
+}
+
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
